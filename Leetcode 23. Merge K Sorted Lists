@@ -6,6 +6,7 @@
  *     ListNode(int x) { val = x; }
  * }
  */
+ //Java implementation
 class Solution {
     public ListNode mergeKLists(ListNode[] lists) {
         Queue<ListNode> q=new PriorityQueue<>((a,b) -> (a.val-b.val));
